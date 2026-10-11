@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Bolelwane Precast Construction logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12378f"/>
+      <stop offset="1" stop-color="#06153d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="0.55" stop-color="#f2b81f"/>
+      <stop offset="1" stop-color="#c98f0c"/>
+    </linearGradient>
+    <linearGradient id="goldRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0b8"/>
+      <stop offset="1" stop-color="#f2b81f"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="496" height="496" rx="96" fill="url(#bg)"/>
+  <rect x="24" y="24" width="464" height="464" rx="82" fill="none" stroke="url(#gold)" stroke-width="10"/>
+  <!-- roof -->
+  <polygon points="96,246 198,142 314,142 416,246" fill="url(#goldRoof)"/>
+  <line x1="198" y1="142" x2="150" y2="246" stroke="#06153d" stroke-width="5" opacity="0.45"/>
+  <line x1="314" y1="142" x2="362" y2="246" stroke="#06153d" stroke-width="5" opacity="0.45"/>
+  <rect x="92" y="246" width="328" height="14" rx="3" fill="url(#gold)"/>
+  <!-- walls (precast panels) -->
+  <rect x="112" y="262" width="288" height="128" fill="url(#gold)"/>
+  <line x1="208" y1="262" x2="208" y2="390" stroke="#06153d" stroke-width="6"/>
+  <line x1="304" y1="262" x2="304" y2="390" stroke="#06153d" stroke-width="6"/>
+  <!-- windows + door -->
+  <rect x="134" y="292" width="52" height="44" rx="3" fill="#06153d"/>
+  <rect x="326" y="292" width="52" height="44" rx="3" fill="#06153d"/>
+  <line x1="160" y1="292" x2="160" y2="336" stroke="#f2b81f" stroke-width="3"/>
+  <line x1="352" y1="292" x2="352" y2="336" stroke="#f2b81f" stroke-width="3"/>
+  <rect x="232" y="296" width="48" height="94" rx="3" fill="#06153d"/>
+  <circle cx="270" cy="346" r="3.5" fill="#f2b81f"/>
+  <!-- ground -->
+  <rect x="88" y="394" width="336" height="14" rx="7" fill="url(#gold)"/>
+</svg>
